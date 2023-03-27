@@ -26,6 +26,7 @@ body {
     font-size: 40px;
     line-height: 48px;
     width: 208px;
+    height: 50px    ;
     text-align: center;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #004980;
@@ -35,6 +36,12 @@ body {
     gap: 24px;
 }
 .difficulty_btn {
+display: none;
+}
+.difficulty_btn-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 97px;
     height: 98px;
     font-family: 'StratosSkyeng';
@@ -42,8 +49,9 @@ body {
     font-size: 64px;
     line-height: 72px;
     color: #0080C1;
-    border: 0;
-    border-radius: 12px;
+    box-sizing: border-box;
+    border: black solid 1px;
+    border-radius: 50px;
 }
 .start_btn {
     font-family: 'StratosSkyeng';
